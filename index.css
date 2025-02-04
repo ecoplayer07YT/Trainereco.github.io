@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@font-face {
+    font-family: 'MinecraftFont';
+    src: url('https://db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.woff2') format('woff2');
+}
+
+.minecraft-font {
+    font-family: 'MinecraftFont', sans-serif;
+}
+
+/* Hover Effects */
+.hover-transform {
+    transition: transform 0.3s ease;
+}
+
+.hover-transform:hover {
+    transform: scale(1.05);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f5f5dc;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #8B4513;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #703610;
+}
